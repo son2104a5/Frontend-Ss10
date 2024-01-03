@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    font-size: small;
+}
+
+.flex-container{
+    display: flex;
+    background-color: rgb(0, 149, 255);
+    height: 56px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.item{
+    line-height: 56px;
+}
+
+img{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+input{
+    height: 35px;
+    width: 250px;
+    color: black;
+    border-radius: 4px;
+    border-color: rgb(0, 149, 255);
+    position: relative;
+    outline: none;
+}
+
+.search{
+    position: absolute;
+    color: #000;
+    top: 22px;
+    left: 710px;
+}
